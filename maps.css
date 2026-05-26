@@ -1,0 +1,66 @@
+html, body{
+    margin:0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(0, 30, 66, 0.2);
+    background-image: url(/images/Edinburgh_background.jpg);
+}
+header {
+    
+    text-align: center;
+    
+    height: 30vh;
+    background-color: rgba(0, 30, 66, 0.5);
+   /* to make an image look greyed out, at it to a container then have another 
+   container within have no margin and background colour like the above*/
+}
+h1{
+    color: white;
+    font-size: 300%;
+}
+nav {
+    
+    display: flex;
+    justify-content: flex-end;
+    height: 10vh;
+    
+    
+}
+nav a {
+    background-color: rgba(0, 30, 66, 0.4);
+    padding: 2%;
+    text-decoration: none;
+    color: white;
+}
+nav a:hover {
+    background-color: rgba(0, 30, 66, 0.9);
+    padding: 2%;
+    text-decoration: none;
+    color: white;
+}
+#map_box{
+    
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 30, 66, 0.5);
+    margin: 0;
+    height:100vh;
+}
+#map_pad{
+    padding: 5%;
+    width:75%;
+    height:75%;
+}
+@media screen and (max-width: 800px){
+
+    nav{
+        justify-content: center;
+        align-items: center;
+        
+    }
+    nav a{
+        width:100%;
+    }
+
+}

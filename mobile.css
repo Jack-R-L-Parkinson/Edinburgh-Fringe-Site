@@ -1,0 +1,87 @@
+html, body {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+.main{
+    display: flex;
+    flex-direction: column;
+    background-image: url("/images/Edinburgh_background.jpg");
+    background-color: grey;
+    background-position: center;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 100%;
+}
+.card{
+    background-color: blue;
+    height:25vh;
+    width:75vw;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;  
+
+}
+#map{
+    background-image: url("/images/map.png");
+    background-color: steelblue;
+    background-position: center;
+}
+#bars{
+    background-image: url("/images/beers.png");
+    background-color: steelblue;
+    background-position: center;
+}
+#shows{
+    background-image: url("/images/shows.png");
+    background-color: steelblue;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.card_banner{
+    width:100%;
+    margin:0;
+    background-color: rgba(0, 30, 66, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card_banner h2{
+    color:white;
+    
+}
+a {
+  text-decoration: none;
+}
+@media screen and (min-width: 800px)    {
+        .main{
+        display: flex;
+        flex-direction: row;
+        background-image: url("/images/Edinburgh_background.jpg");
+        background-color: grey;
+        background-position: center;
+        justify-content: space-evenly;
+        align-items: center;
+        min-height: 100%;
+    }
+    .card{
+        background-color: blue;
+        height:50vh;
+        width:25vw;
+        border-radius: 5%;
+        transition: width 2s, height 1s, background-color 3s;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+
+        
+        
+
+    }
+    .card:hover {
+    height:80vh;
+    width:25vw;
+    background-color: orange;
+}   
+}

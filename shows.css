@@ -1,0 +1,113 @@
+html, body{
+    margin:0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(0, 30, 66, 0.2);
+    background-image: url(/images/Edinburgh_background.jpg);
+}
+header {
+    
+    text-align: center;
+    height: 30vh;
+    background-color: rgba(0, 30, 66, 0.5);
+   /* to make an image look greyed out, at it to a container then have another 
+   container within have no margin and background colour like the above*/
+}
+h1{
+    color: white;
+    font-size: 300%;
+}
+nav {
+    
+    display: flex;
+    justify-content: flex-end;
+    height: 10vh;
+    
+    
+}
+nav a {
+    background-color: rgba(0, 30, 66, 0.4);
+    padding: 2%;
+    text-decoration: none;
+    color: white;
+}
+nav a:hover {
+    background-color: rgba(0, 30, 66, 0.9);
+    padding: 2%;
+    text-decoration: none;
+    color: white;
+}
+.box_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height:100vh;
+    background-color: rgba(0, 30, 66, 0.5);
+    
+}
+.show_box{
+    
+    color:white;
+    padding:2%;
+   
+}
+.show_box h2{
+    text-align: center;
+}
+.show_box button{
+    text-align: center;
+}
+
+
+/* amend styling for collabsilble*/
+.collapsible {
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 100%;
+  border-bottom-style: solid;
+}
+
+.active, .collapsible:hover {
+  background-color: rgba(0, 30, 66, 0.9);
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+  color:black;
+}
+.content a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* end of collapsible*/
+@media screen and (max-width: 800px){
+
+    nav{
+        justify-content: center;
+        align-items: center;
+        
+    }
+    nav a{
+        width:100%;
+    }
+    .box_container{
+    display: flex;
+    flex-direction: column;
+    height:auto;
+    }
+
+
+}
