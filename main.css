@@ -38,17 +38,17 @@ html, body {
   background-color: orange;
 }  
 #map{
-    background-image: url("/images/map.png");
+    background-image: url("images/map.png");
     background-color: steelblue;
     background-position: center;
 }
 #bars{
-    background-image: url("/images/beers.png");
+    background-image: url("images/beers.png");
     background-color: steelblue;
     background-position: center;
 }
 #shows{
-    background-image: url("/images/shows.png");
+    background-image: url("images/shows.png");
     background-color: steelblue;
     background-position: center;
     background-repeat: no-repeat;
@@ -73,7 +73,7 @@ a {
     .main{
     display: flex;
     flex-direction: column;
-    background-image: url("/images/Edinburgh_background.jpg");
+    background-image: url("images/Edinburgh_background.jpg");
     background-color: grey;
     background-position: center;
     justify-content: space-evenly;
