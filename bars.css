@@ -90,9 +90,26 @@ nav a:hover {
 .bars_box button{
     text-align: center;
 }
+@media screen and (max-width: 800px){
 
-    
-    
+    nav{
+        justify-content: center;
+        align-items: center;
+        
+    }
+    nav a{
+        width:100%;
+    }
+    .main_container{
+    display: flex;
+    flex-direction: column;
+    height:auto;
+    }
+
+
 }
+    
+    
+
 
 
