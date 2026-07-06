@@ -181,6 +181,7 @@ nav button:hover {
   justify-content: center;
   height:500px;
   width:100%;
+  margin-bottom: 2%;
 }
 .content-container{
   background-color: white;
