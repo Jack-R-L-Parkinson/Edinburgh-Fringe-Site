@@ -26,6 +26,7 @@ nav {
     height: 10vh;
     
     
+    
 }
 
 nav button {
@@ -35,7 +36,7 @@ nav button {
     color: white;
     border-style: none;
     border-radius: 3px;
-    
+    font-size: 125%;
     
 }
 nav button:hover {
@@ -173,3 +174,28 @@ nav button:hover {
     right: 35px;
   }
 }   
+
+/*Key info style sheet*/
+.main-container{
+  display: flex;
+  justify-content: center;
+  height:500px;
+  width:100%;
+}
+.content-container{
+  background-color: white;
+  color: black;
+  height: 100%;
+  width:70%;
+}
+.content-container h2, p{
+  margin-left: 10%;
+}
+@media screen and (max-width: 800px){
+  .content-container {
+    display: block
+
+  }
+  .content-container h2, p{
+  margin-left: 10%;}
+}

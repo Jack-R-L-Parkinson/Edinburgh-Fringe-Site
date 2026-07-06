@@ -85,6 +85,7 @@ nav button:hover {
     justify-content: center;
     height:100vh;
     background-color: rgba(0, 30, 66, 0.5);
+     font-size: 125%;
     
 }
 .bars_box{
