@@ -10,7 +10,7 @@ header {
     
     text-align: center;
     height: 30vh;
-    background-color: rgba(0, 30, 66, 0.5);
+   /* background-color: rgba(0, 30, 66, 0.5);*/
    /* to make an image look greyed out, at it to a container then have another 
    container within have no margin and background colour like the above*/
 }
@@ -51,7 +51,7 @@ nav button:hover {
     flex-direction: row;
     justify-content: center;
     height:100vh;
-    background-color: rgba(0, 30, 66, 0.5);
+    /*background-color: rgba(0, 30, 66, 0.5);*/
     
 }
 .show_box{
