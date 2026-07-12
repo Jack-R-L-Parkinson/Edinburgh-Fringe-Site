@@ -192,6 +192,10 @@ nav button:hover {
 .content-container h2, p{
   margin-left: 10%;
 }
+.content-container hr{
+  border-top: 2px solid red;
+  width: 80%;
+}
 @media screen and (max-width: 800px){
   .content-container {
     display: block
