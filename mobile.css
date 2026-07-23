@@ -30,8 +30,9 @@ html, body {
 #map{
     background-image: url("images/map.png");
     background-color: steelblue;
-    /*background-position: center;*/
+    background-position: center;
     background-repeat: no-repeat;
+    background-size: auto;
 }
 #bars{
     background-image: url("images/beers.png");
