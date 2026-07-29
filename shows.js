@@ -20,3 +20,7 @@ function openNav() {
 /* Close when someone clicks on the "x" symbol inside the overlay */
 function closeNav() {
   document.getElementById("myNav").style.height = "0%";}
+
+function closeVideo() {
+  document.getElementById("overlayvideo").style.display = "none";
+}
